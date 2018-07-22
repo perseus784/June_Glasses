@@ -118,7 +118,7 @@ I think these photos would do..
 </p>
 <p align="center">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(1).jpg" width="800" height="400">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(3).jpg" width="800" height="400">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(3.jpg" width="800" height="400">
 </p>
 
 ## Future ideas:
