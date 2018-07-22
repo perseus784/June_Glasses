@@ -44,8 +44,8 @@ But we are going to only take the design aspect from his project and build our o
 
 The design consist of all the above mentioned parts. The text from the display is refelected the mirror that is placed 45 degree to the axis and then magnified using a fresnel lens and then projected to a acrylic piece or any transparent reflective surface.
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="300" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="300" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="400" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="400" height="400">
 </p>
 The magnification is required to increase the focus because human eyes cannot read or focus anything with in 10cm.
 <p align="center">
@@ -55,13 +55,13 @@ The magnification is required to increase the focus because human eyes cannot re
 The initial prototypes were done with cardboard, easy to dismantle and put together.   
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(1).jpg" width="300" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(2).jpg" width="300" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(2).jpg" width="400" height="300">
 </p>  
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(3).jpg" width="300" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(4).jpg" width="300" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(3).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(4).jpg" width="400" height="300">
 </p>
 
 The final one is done using plastic from a CD holder box with soft plastic which can cut using scissors and stick all together using a glue gun. 
@@ -75,26 +75,26 @@ The final one is done using plastic from a CD holder box with soft plastic which
 The clarity of the text can be improved using a real plano-convex lens, but it will make it heavy, bulky and it is not easy to cut. So, using a fresnel lens is kind of a good trade off.  
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(1).jpg" width="800" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(4).jpg" width="800" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(4).jpg" width="400" height="300">
 </p>
 
 ## Circuit Diagram:  
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit2.png" width="700" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit2.png" width="800" height="400">
 </p> 
 
 The tp4056 takes care of charging as well as discharging and gives protection to your battery. If you are going for a bigger battery then you have to modify the resister.
 Put the switch between the tp4056 and the circuit. Make sure you connect scl and sda properly to esp8266.  
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(1).jpg" width="400" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(2).jpg" width="400" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(2).jpg" width="400" height="300">
 </p>
 
 Solder the layout properly  and try to make it as small as possible.  
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(3).jpg" width="700" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(3).jpg" width="800" height="400">
 </p>
 
 ## Programs:
