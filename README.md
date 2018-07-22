@@ -3,7 +3,7 @@
 A Wireless DIY Smart glass using ESP8266 to send text from any client in the network using a get request.
 <p align="left">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="600" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="200" height="400" style="transform:rotate(90deg);">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="250" height="400" ">
 </p>
 
 #  DIY Smart Glasses
@@ -14,7 +14,7 @@ The name is beacuse I started the project by June and can't think of a cool name
 It can display text which can be sent from any client wirelessly.
 
 ## Acknowledement: 
-This project is inspired from ![this guy](https://hackaday.io/project/12211-arduino-glasses-a-hmd-for-multimeter). He posted the problems he faced in each stage and how to fix it which was very helpful when I am building it. Please do check his site.
+This project is inspired from [this guy](https://hackaday.io/project/12211-arduino-glasses-a-hmd-for-multimeter). He posted the problems he faced in each stage and how to fix it which was very helpful when I am building it. Please do check his site.
 
 But we are going to only take the design aspect from his project and build our own custom glasses to fit our needs.
 
@@ -49,7 +49,7 @@ The design consist of all the above mentioned parts. The text from the display i
 </p>
 The magnification is required to increase the focus because human eyes cannot read or focus anything with in 10cm.
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(1).jpg" width="1200" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(1).jpg" width="900" height="400">
 </p>
 
 The initial prototypes were done with cardboard, easy to dismantle and put together.   
