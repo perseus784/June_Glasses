@@ -2,8 +2,8 @@
 # June Glasses
 A Wireless DIY Smart glass using ESP8266 to send text from any client in the network using a get request.
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="600" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="250" height="400" ">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="500" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="350" height="300" ">
 </p>
 
 #  DIY Smart Glasses
@@ -44,12 +44,12 @@ But we are going to only take the design aspect from his project and build our o
 
 The design consist of all the above mentioned parts. The text from the display is refelected the mirror that is placed 45 degree to the axis and then magnified using a fresnel lens and then projected to a acrylic piece or any transparent reflective surface.
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="430" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="430" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="430" height="300">
 </p>
 The magnification is required to increase the focus because human eyes cannot read or focus anything with in 10cm.
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(1).jpg" width="900" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(1).jpg" width="900" height="300">
 </p>
 
 The initial prototypes were done with cardboard, easy to dismantle and put together.   
@@ -66,11 +66,9 @@ The initial prototypes were done with cardboard, easy to dismantle and put toget
 
 The final one is done using plastic from a CD holder box with soft plastic which can cut using scissors and stick all together using a glue gun. 
 
-<p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(2).jpg" width="800" height="400">
-</p>
-<p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(3).jpg" width="800" height="400">
+<p align="left">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(2).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(3).jpg" width="430" height="300">
 </p>
 The clarity of the text can be improved using a real plano-convex lens, but it will make it heavy, bulky and it is not easy to cut. So, using a fresnel lens is kind of a good trade off.  
 
@@ -94,7 +92,7 @@ Put the switch between the tp4056 and the circuit. Make sure you connect scl and
 
 Solder the layout properly  and try to make it as small as possible.  
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(3).jpg" width="800" height="400">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(3).jpg" width="800" height="350">
 </p>
 
 ## Programs:
@@ -106,20 +104,39 @@ To demostrate I used a python client, which code can be found ![here](https://gi
 
 ## Working:
 
-I think these photos would do..  
-<p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(1).jpg" width="800" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="800" height="400">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(3).jpg" width="800" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(4).jpg" width="800" height="400">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(5).jpg" width="800" height="400">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(6).jpg" width="800" height="400">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(7).jpg" width="800" height="400">
+I think these photos would do.. 
+### Initial test:
+<p align="left">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(1).jpg" width="430" height="300">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="430" height="300">
+</p>  
+
+### Environment test:
+<p align="left">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(4).jpg" width="430" height="300">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(6).jpg" width="430" height="300">
+</p>  
+
+### Projection on Display test:
+<p align="left">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(3).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(5).jpg" width="430" height="300">
+</p>  
+
+### Darkness text:  
+It is actually very good in low light but my phone's camera was not able to capture it.  
+<p align="left">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(7).jpg" width="430" height="300">
+</p>    
+
+### Human test:
+<p align="left">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(1).jpg" width="400" height="540">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(2).jpg" width="400" height="540">
 </p>
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(1).jpg" width="800" height="400">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(3.jpg" width="800" height="400">
-</p>
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(3).jpg" width="860" height="300">
+</p>   
 
 ## Future ideas:
  Possibilities are endless, we can make it more robust by giving it a 3d printed body. We can customize the circuit even more to combine tp4056 and our esp8266 circuit board to become a single board to make it more compact. Have a battery upgrade with same weight. Better quality lens, mirror and display maybe.
