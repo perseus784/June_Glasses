@@ -1,6 +1,6 @@
 # STILL WRITING THE README COMEBACK LATER?  
 # June Glasses
-A Wireless DIY Smart glass using ESP8266 to send text from any client in the network using a get request.
+A Wireless DIY Smart glass using ESP8266-01 to send text from any client in the network using a GET request.
 <p align="left">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="500" height="300">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="350" height="300" ">
@@ -11,7 +11,7 @@ The project started as a fantasy. Though it is not ideal, It'll get the job done
 The name is beacuse I started the project by June and can't think of a cool name..What's wrong with June Glasses anyways?
 
 **What it can do:**  
-It can display text which can be sent from any client wirelessly.
+It will display text which can be sent from any client wirelessly.
 
 ## Acknowledement: 
 This project is inspired from [this guy](https://hackaday.io/project/12211-arduino-glasses-a-hmd-for-multimeter). He posted the problems he faced in each stage and how to fix it which was very helpful when I am building it. Please do check his site.
@@ -29,11 +29,13 @@ But we are going to only take the design aspect from his project and build our o
 ## Parts Required:   
 
 * ESP8266-01.
-* 3.7v LiPo Battery 300 mAh.(Can be increased to adopt more )
+* 3.7v LiPo Battery 300 mAh.(Can be increased to adopt more)
 * A TP4056 LiPo  Charge And Discharge Protection.(Please double check whether it has discharge protection too)
 * 128 x 64 (0.96 inches) OLED Display.
 * A simple Soldering setup.
+* [A Fresnel Lens.](https://www.amazon.in/gp/product/B001TMG6TM/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 * Glue Gun (It's really helpful for many household works).
+* Material for casing (I used CD cases).
 * A dotted PCB, Wire bits, a switch and a female socket(4x2) for esp8266.
 
 
@@ -96,11 +98,11 @@ Solder the layout properly  and try to make it as small as possible.
 </p>
 
 ## Programs:
-The ESP8266 is programmed in arduino IDE. You can get the Arduino code ![here](https://github.com/perseus784/June_Glasses/blob/master/esp8266.ino).
+The ESP8266 is programmed in arduino IDE. You can get the Arduino code [here](https://github.com/perseus784/June_Glasses/blob/master/esp8266.ino).
 You may need ssd1306.h library which can be added using Manage Libraries section.
 ESP8266 Libraries obviuosly.
 
-To demostrate I used a python client, which code can be found ![here](https://github.com/perseus784/June_Glasses/blob/master/send_text.py).
+To demostrate I used a python client, which code can be found [here](https://github.com/perseus784/June_Glasses/blob/master/send_text.py).
 
 ## Working:
 
