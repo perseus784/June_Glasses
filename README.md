@@ -1,11 +1,11 @@
 # June Glasses
-A Wireless DIY Smart glass using ESP8266-01 to send text from any client in the network using a GET request.
+A Wireless DIY Smart HUD glass using ESP8266-01 to send text from any client in the network using a GET request.
 <p align="left">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="500" height="300">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="350" height="300" ">
 </p>
 
-#  DIY Smart Glasses
+#  DIY Smart HUD Glasses
 The project started as a fantasy. Though it is not ideal, It'll get the job done. It took me 40-45 hours totally to do it. 
 The name is beacuse I started the project by June and can't think of a cool name..What's wrong with June Glasses anyways?
 
