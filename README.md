@@ -142,3 +142,4 @@ It is actually very good in low light but my phone's camera was not able to capt
 ## Future ideas:
  Possibilities are endless, we can make it more robust by giving it a 3d printed body. We can customize the circuit even more to combine tp4056 and our esp8266 circuit board to become a single board to make it more compact. Have a battery upgrade with same weight. Better quality lens, mirror and display maybe.
 
+Please star it if you like the project.
