@@ -9,6 +9,8 @@ A Wireless DIY Smart HUD glass using ESP8266-01 to send text from any client in 
 The project started as a fantasy. Though it is not ideal, It'll get the job done. It took me 40-45 hours totally to do it. 
 The name is beacuse I started the project by June and can't think of a cool name..What's wrong with June Glasses anyways?
 
+***Please click on the images to see the actual result in good quality, the images are shrunk inorder to fit in***
+
 **What it can do:**  
 It will display text which can be sent from any client wirelessly.
 
