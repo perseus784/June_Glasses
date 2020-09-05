@@ -1,7 +1,7 @@
 # June Glasses
 A Wireless DIY Smart HUD glass using ESP8266-01 to send text from any client in the network using a GET request.
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="500" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(2).jpg" width="450" height="300">
 <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="350" height="300" ">
 </p>
 
@@ -47,8 +47,8 @@ But we are going to only take the design aspect from his project and build our o
 
 The design consist of all the above mentioned parts. The text from the display is refelected the mirror that is placed 45 degree to the axis and then magnified using a fresnel lens and then projected to a acrylic piece or any transparent reflective surface.
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="400" height="300">
 </p>
 The magnification is required to increase the focus because human eyes cannot read or focus anything with in 10cm.
 <p align="center">
@@ -58,26 +58,26 @@ The magnification is required to increase the focus because human eyes cannot re
 The initial prototypes were done with cardboard, easy to dismantle and put together.   
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(1).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(2).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(2).jpg" width="400" height="300">
 </p>  
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(3).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(4).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(3).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/cardboard(4).jpg" width="400" height="300">
 </p>
 
 The final one is done using plastic from a CD holder box with soft plastic which can cut using scissors and stick all together using a glue gun. 
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(2).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(3).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/making(2).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(3).jpg" width="400" height="300">
 </p>
 The clarity of the text can be improved using a real plano-convex lens, but it will make it heavy, bulky and it is not easy to cut. So, using a fresnel lens is kind of a good trade off.  
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(1).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(4).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/device(4).jpg" width="400" height="300">
 </p>
 
 ## Circuit Diagram:  
@@ -89,8 +89,8 @@ The tp4056 takes care of charging as well as discharging and gives protection to
 Put the switch between the tp4056 and the circuit. Make sure you connect scl and sda properly to esp8266.  
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(1).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(2).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(1).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/circuit(2).jpg" width="400" height="300">
 </p>
 
 Solder the layout properly  and try to make it as small as possible.  
@@ -110,20 +110,20 @@ To demostrate I used a python client, which code can be found [here](https://git
 I think these photos would do.. 
 ### Initial test:
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(1).jpg" width="430" height="300">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(1).jpg" width="400" height="300">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(2).jpg" width="400" height="300">
 </p>  
 
 ### Environment test:
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(4).jpg" width="430" height="300">
- <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(6).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(4).jpg" width="400" height="300">
+ <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(6).jpg" width="400" height="300">
 </p>  
 
 ### Projection on Display test:
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(3).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(5).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(3).jpg" width="400" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/hud(5).jpg" width="400" height="300">
 </p>  
 
 ### Darkness text:  
@@ -138,7 +138,7 @@ It is actually very good in low light but my phone's camera was not able to capt
  <img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(2).jpg" width="400" height="540">
 </p>
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(3).jpg" width="860" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/working(3).jpg" width="800" height="300">
 </p>   
 
 ## Future ideas:
